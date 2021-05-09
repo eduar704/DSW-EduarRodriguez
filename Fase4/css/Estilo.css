@@ -1,0 +1,37 @@
+*{
+    margin: 5px;
+    border-radius: 3px;
+}
+header{
+    background-color: rgb(236, 233, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+aside{
+    grid-column: 1/2;
+    background-color: rgb(185, 183, 187);
+}
+section{
+    grid-column: 2/5;
+    background-color: rgb(185, 183, 187);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(4, 19, 4);
+    color: white;
+    padding: 10px;
+}
+
+.justificado{
+    text-align: justify;
+}
+.centrado{
+    text-align: center;
+}
